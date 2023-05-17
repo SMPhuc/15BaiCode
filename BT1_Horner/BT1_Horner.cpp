@@ -13,6 +13,6 @@ int main() {
     int poly[] = { 2, -6, 7, -1, 8 };
     int n = sizeof(poly) / sizeof(poly[0]);
     int x = 3;
-    cout << "Giá trị của đa thức tại x=" << x << " là " << horner(poly, n, x) << endl;
+    cout << "Gia tri cua da thuc tại x=" << x << " la " << horner(poly, n, x) << endl;
     return 0;
 }
